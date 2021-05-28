@@ -1,0 +1,24 @@
+{
+  "name": "price-component-proxy",
+  "version": "1.0.0",
+  "description": "Price_Component_Proxy",
+  "main": "./server/server.js",
+  "scripts": {
+    "server": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mary-Read/price-component-proxy.git"
+  },
+  "author": "Darian Hogue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mary-Read/price-component-proxy/issues"
+  },
+  "homepage": "https://github.com/Mary-Read/price-component-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
