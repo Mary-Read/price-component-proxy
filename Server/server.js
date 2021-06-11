@@ -8,7 +8,7 @@ const port = 5000;
 const app = express();
 
 app.use(express.static(path.join(__dirname, '/../Client/')));
-app.use(cors())
+app.use(cors());
 
 app.get(['/', '/p/*'], (req, res) => {
   console.log('Made It')
